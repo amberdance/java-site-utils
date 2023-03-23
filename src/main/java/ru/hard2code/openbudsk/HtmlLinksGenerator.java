@@ -25,6 +25,7 @@ class HtmlLinksGenerator {
         this.files = files.stream().sorted(StrCmpLogicalWComparator.WINDOWS_NATIVE_ORDER).toList();
     }
 
+
     public String generateHtml() {
         var result = new StringBuilder();
         result.append("<ul>").append("\n");

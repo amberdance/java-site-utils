@@ -7,6 +7,11 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
+
+    }
+
+    //Driver code
+    public static void renderHtmlForLinks() {
         try (var scanner = new Scanner(System.in)) {
             System.out.println("Enter path to the directory:");
             var htmlLinksGenerator = new HtmlLinksGenerator();
